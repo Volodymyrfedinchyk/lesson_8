@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+
+body{
+	font-family: "lato";
+	max-width: 1230px;
+	font-size: 16px;
+	margin: 0 auto;
+	min-height: 100%;
+}
+.text1{
+	font-weight: 400;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 40px;
+}
+.title1{
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 20px;
+}
+.list{
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 184px;
+}
+.title2{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+	margin-bottom: 8px;
+}
+h2{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 16px;
+}
+.pretium{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	color: #787A80;
+	margin-bottom: 32px;
+}
+.tempus{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 32px;
+}
+.text2{
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 40px;
+}
+.list ul li{
+	background: url(/img/check.jpg) 0 6px no-repeat;
+	padding-left: 32px;
+}
+
+.tempus ul .venenatis::before{
+	content:"";
+	background: url('../img/1.png') 0 0 no-repeat;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	margin-right: 8px;
+}
+
+.tempus ul .fames::before{
+	content:"";
+	background: url('../img/2.png') 0 0 no-repeat;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	margin-right: 8px;
+}
+
+.tempus ul .gravida::before{
+	content:"";
+	background: url('../img/3.png') 0 0 no-repeat;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	margin-right: 8px;
+}
+.proin div{
+	display: inline-block;
+	margin-right: 24px;
+}
+.vulputate img{
+	width: 24px;
+	height: 24px;
+}
+/* мій макет */
+.article{
+	font-family: 'PT Serif', serif;
+	max-width: 755px;
+	margin: 0 auto;
+	font-weight: 400;
+}
+.conteiner{
+	background: no-repeat;
+	background-image: url("/img/10.jpg");
+	background-position: top center ;
+	margin-top: 300px;
+	min-height: 400px;
+	text-align: center;
+	box-shadow: 10px 10px 10px 10px;
+	margin-bottom: 40px;
+}
+.society{
+	border: 1px solid#fff;
+	color: #fff;
+	margin-top: 160px;
+	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 15px;
+	display: inline-block;
+	text-align: center;
+	padding: 7px 15px 8px;
+	opacity: 0.8;
+	margin-bottom: 26px;
+}
+.tatle2{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 40px;
+	margin: 0 0 10px;
+	padding: 7px 35px 8px;
+	color: #fff;
+}
+.conteiner-wraper{
+	font-size: 20px;
+	line-height: 24px;
+	opacity: 0.8;
+	padding: 0 15% 15px;
+	color: rgb(255, 255, 255);
+}
+.fishnet{
+	color:#f26160;
+	font-weight: 700;
+}
+.href2{
+	padding-right: 20px;
+}
+.main p{
+	font-size: 20px;
+	
+}
+
+.main p:not(:last-child){
+	margin-bottom: 20px;
+}
+.which{
+	color: blue;
+}
+.which:visited{
+	color: #787A80;
+}
+
+.which:hover{
+	color: #f26160;
+	text-decoration: underline;
+}
+.which:active{
+	color: brown;
+	text-decoration: none;
+}
+
+.pump{
+	margin-bottom: 15px;
+	line-height: 30px;
+}
+.title3{
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.features{
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+.list2{
+	list-style-type: upper-roman;
+}
+.gdr{
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+.list2 li{
+	margin-left: 30px;
+	list-style:circle;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.hint{
+	text-align: center;
+	font-size: 16px;
+	color: #787A80;
+	margin-bottom: 50px;
+}
+.ghh{
+	margin-bottom: 30px;
+}
+a:focus{
+	border:3px solid #1E212C
+}
+.image{
+	display: none;
+}
+.image:target{
+	display: block;
+}
+.elit p:last-child{
+	color: crimson;
+
+}
+
+.elit p:first-child{
+	color: blue;
+}
+
+
+.elit p:nth-child(2){
+	color: darkmagenta;
+}
+
+.elit p:nth-child(3):hover{
+	color: red;
+}
+
+.elit p:nth-child(3)::before{
+	content: "";
+	display: inline-block;
+	background: url("../img/braces.svg") 0 0 no-repeat;
+	width: 28px;
+	height: 20px;
+	margin-right: 14px;
+}
+.elit p:nth-child(3)::after{
+	content: "";
+	display: inline-block;
+	background: url("../img/braces.svg") 0 0 no-repeat;
+	width: 28px;
+	height: 20px;
+	margin-left: 14px;
+}
+.year-old p:nth-child(odd){
+	color: chartreuse;
+}
+.year-old p:nth-child(even){
+	color:#f26160;
+}
+
+
